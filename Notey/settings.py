@@ -163,4 +163,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS settings
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://notey-client.onrender.com",
+]

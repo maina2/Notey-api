@@ -161,8 +161,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory to store uploaded medi
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Replace with your frontend URL
-]
+ALLOWED_HOSTS = ['*']
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ALL_ORIGINS = True
